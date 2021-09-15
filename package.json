@@ -2,7 +2,10 @@
     "name": "shane-cl",
     "version": "1.0.8",
     "description": "Small library for reusable React Hooks and Components",
-    "repository": "git@github.com:ksb86/shane-cl.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ksb86/shane-cl#readme"
+    },
     "main": "dist/index.js",
     "module": "dist/index.js",
     "scripts": {
