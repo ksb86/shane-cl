@@ -1,0 +1,28 @@
+{
+    "name": "shane-cl",
+    "version": "1.0.8",
+    "description": "",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "scripts": {
+        "dev": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --watch",
+        "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shane Barnwell",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.15.4",
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
+        "@babel/preset-react": "^7.14.5"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1"
+    },
+    "peerDependencies": {
+        "axios": "^0.21.4",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
+}
